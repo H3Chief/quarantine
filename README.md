@@ -15,3 +15,19 @@
  
 ## Stories
 
+## Contributing
+
+Contribution is open to all. For feature requests, please open an issue. PR's accepted, but must follow the following javascript style rules:
+
+- no use of es6 classes - period
+- use commonjs style require only
+- any new dependency must come with a description of why the dependency is required or useful enough to be included
+
+### Development Setup
+
+Requires React DevTools for the full debugging experience
+
+1. Fork the repo
+2. Clone your fork
+3. Run `npm install` from inside the cloned project
+4. Run `npm start` to build and open the app in dev mode
