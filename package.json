@@ -1,0 +1,18 @@
+{
+  "name": "decontamination",
+  "version": "0.1.0",
+  "description": "Proxying the webs dependency managers",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.30.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.3",
+    "react": "^0.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Vanderbusch <brian@normalgravity.com> (https://github.com/LongLiveCHIEF)",
+  "license": "SEE LICENSE IN LICENSE.txt"
+}
