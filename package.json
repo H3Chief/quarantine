@@ -4,16 +4,19 @@
   "description": "Proxying the webs dependency managers",
   "main": "main.js",
   "dependencies": {
-    "electron-prebuilt": "^0.30.0"
+    "electron-prebuilt": "^0.30.0",
+    "material-ui": "^0.10.1",
+    "react-tap-event-plugin": "^0.1.7"
   },
+  "repository":"git@github.com:LongLiveCHIEF/quarantine.git",
   "devDependencies": {
     "babel": "^5.8.3",
     "react": "^0.13.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  	"start":"electron ./"
+    "start": "electron ./"
   },
-  "author": "Brian Vanderbusch <brian@normalgravity.com> (https://github.com/LongLiveCHIEF)",
-  "license": "SEE LICENSE IN LICENSE.txt"
+  "author": "Brian Vanderbusch <brian.vanderbusch@gmail.com> (https://github.com/LongLiveCHIEF)",
+  "license": "MIT"
 }
