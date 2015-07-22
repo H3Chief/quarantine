@@ -11,7 +11,8 @@
     "react": "^0.13.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  	"start":"electron ./"
   },
   "author": "Brian Vanderbusch <brian@normalgravity.com> (https://github.com/LongLiveCHIEF)",
   "license": "SEE LICENSE IN LICENSE.txt"

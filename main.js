@@ -1,6 +1,11 @@
 var app = require('app');  // Module to control application life.
 var BrowserWindow = require('browser-window');  // Module to create native browser window.
 
+//use babel to compile .jsx/.js files in src directory only
+require("babel/register")({
+	only: "/src"
+});
+
 // Report crashes to our server.
 require('crash-reporter').start();
 
@@ -19,8 +24,10 @@ app.on('window-all-closed', function() {
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
+// this starts the renderer process
 app.on('ready', function() {
   // Create the browser window.
+
   mainWindow = new BrowserWindow({width: 800, height: 600});
 
   // and load the index.html of the app.
