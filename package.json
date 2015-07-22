@@ -1,5 +1,5 @@
 {
-  "name": "decontamination",
+  "name": "quarantine",
   "version": "0.1.0",
   "description": "Proxying the webs dependency managers",
   "main": "main.js",
