@@ -7,5 +7,5 @@ let Quarantine  = require("./client/Quarantine.jsx");
 injectTapEventPlugin();
 
 
-React.render(<Quarantine />, document.getElementById("decontaminate"));
+React.render(<Quarantine />, document.body);
 

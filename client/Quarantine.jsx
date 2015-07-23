@@ -1,7 +1,8 @@
 let React = require("react");
 let mui = require("material-ui");
 let ThemeManager = new mui.Styles.ThemeManager();
-let AppBar = mui.AppBar;
+let {AppBar, AppCanvas } = mui;
+
 
 var Quarantine = React.createClass({
 	// required for material-ui theme
@@ -10,9 +11,12 @@ var Quarantine = React.createClass({
 			muiTheme: ThemeManager.getCurrentTheme()
 		}	
 	},
-
 	render: function(){
-		return (<AppBar title="Quarantine" />);	
+		return (
+		<AppCanvas>	
+			<AppBar title="Quarantine" />
+		</AppCanvas>	
+		);	
 	}
 });
 
