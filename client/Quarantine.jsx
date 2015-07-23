@@ -1,7 +1,7 @@
 let React = require("react");
 let mui = require("material-ui");
 let ThemeManager = new mui.Styles.ThemeManager();
-
+let AppBar = mui.AppBar;
 
 var Quarantine = React.createClass({
 	// required for material-ui theme
@@ -12,7 +12,7 @@ var Quarantine = React.createClass({
 	},
 
 	render: function(){
-		return (<div>Hello World</div>);	
+		return (<AppBar title="Quarantine" />);	
 	}
 });
 
