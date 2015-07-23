@@ -6,17 +6,21 @@
   "dependencies": {
     "electron-prebuilt": "^0.30.0",
     "material-ui": "^0.10.1",
-    "react-tap-event-plugin": "^0.1.7"
-  },
-  "repository":"git@github.com:LongLiveCHIEF/quarantine.git",
-  "devDependencies": {
+    "react-tap-event-plugin": "^0.1.7",
     "babel": "^5.8.3",
     "react": "^0.13.3"
   },
+  "repository": "git@github.com:LongLiveCHIEF/quarantine.git",
   "scripts": {
+	"lint":"eslint ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ./"
   },
   "author": "Brian Vanderbusch <brian.vanderbusch@gmail.com> (https://github.com/LongLiveCHIEF)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^3.1.26",
+    "eslint": "^0.24.1",
+    "mocha": "^2.2.5"
+  }
 }

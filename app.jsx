@@ -1,5 +1,11 @@
 require("babel/register");
-var React = require("react");
-var CommandLine = require("./src/views/main.jsx");
+let React = require("react");
+let injectTapEventPlugin = require("react-tap-event-plugin");
+let Quarantine  = require("./client/Quarantine.jsx");
 
-React.render(<CommandLine />, document.getElementById("decontaminate"));
+//Needed for onTouchTap
+injectTapEventPlugin();
+
+
+React.render(<Quarantine />, document.getElementById("decontaminate"));
+
