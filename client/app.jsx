@@ -1,7 +1,7 @@
 require("babel/register");
 let React = require("react");
 let injectTapEventPlugin = require("react-tap-event-plugin");
-let Quarantine  = require("./client/Quarantine.jsx");
+let Quarantine  = require("./Quarantine.jsx");
 
 //Needed for onTouchTap
 injectTapEventPlugin();

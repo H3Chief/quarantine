@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
   <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World!</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+  	<link href+"https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
 	<script type="text/javascript">
-	  	WebFontConfig = {
+	  	var WebFontConfig = {
 	      google: { families: [ 'Roboto:400,300,500:latin' ] }
 		};
 		  (function() {
@@ -14,12 +20,9 @@
 		      s.parentNode.insertBefore(wf, s);
 		  })();
 	</script>
-    <title>Hello World!</title>
-  </head>
-  <body>
-  </body>
   <script>
 	require("babel/register");
 	require("./app.jsx");
   </script>
+  </body>
 </html>

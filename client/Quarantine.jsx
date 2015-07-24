@@ -1,6 +1,6 @@
 let React = require("react");
 let mui = require("material-ui");
-let ThemeManager = new mui.Styles.ThemeManager();
+let ThemeManager = mui.Styles.ThemeManager();
 let {AppBar, AppCanvas } = mui;
 
 
