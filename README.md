@@ -1,7 +1,9 @@
-# Decontamination/Quarantine
+# Quarantine
+
+## Planned Usage
 
 1. Decontamination - system process that listens for events from other actors, which are:
- - command line tool `dct -- git clone git@github.com/LongLiveCHIEF/decontamination`
+ - command line tool `qrt -- git clone git@github.com/LongLiveCHIEF/decontamination`
  - Native OS client with html5 interface for installing deps, or pointing to a manifest and installing/managing manifest
  - IDE Plugin that binds to the system process 
 2. Calls out to the quarantine proxy to check against blacklist

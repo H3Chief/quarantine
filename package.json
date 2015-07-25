@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Proxying the webs dependency managers",
   "main": "main.js",
+  "bin":{
+ 	"qrt":"./bin/qrt/cli.js" 
+  },
   "dependencies": {
     "electron-prebuilt": "^0.30.0",
     "material-ui": "^0.10.1",
