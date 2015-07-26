@@ -3,26 +3,29 @@
   "version": "0.1.0",
   "description": "Proxying the webs dependency managers",
   "main": "main.js",
-  "bin":{
- 	"qrt":"./bin/qrt/cli.js" 
-  },
-  "dependencies": {
-    "electron-prebuilt": "^0.30.0",
-    "material-ui": "^0.10.1",
-    "react-tap-event-plugin": "^0.1.7",
-    "babel": "^5.8.3",
-    "react": "^0.13.3"
+  "bin": {
+    "qrt": "./bin/qrt/cli.js"
   },
   "repository": "git@github.com:LongLiveCHIEF/quarantine.git",
   "scripts": {
-	"lint":"eslint ./",
+    "install": "node ./node_modules/electron-prebuilt/install.js",
+    "lint": "eslint ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ./"
   },
   "author": "Brian Vanderbusch <brian.vanderbusch@gmail.com> (https://github.com/LongLiveCHIEF)",
+  "dependencies": {
+    "babel": "^5.8.3",
+    "material-ui": "^0.10.1",
+    "os-name": "^1.0.3",
+    "react": "^0.13.3",
+    "react-tap-event-plugin": "^0.1.7"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^3.1.26",
+    "electron-packager": "^5.0.1",
+    "electron-prebuilt": "^0.30.1",
     "eslint": "^0.24.1",
     "mocha": "^2.2.5"
   }
