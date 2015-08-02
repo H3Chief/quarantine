@@ -8,7 +8,6 @@
   },
   "repository": "git@github.com:LongLiveCHIEF/quarantine.git",
   "scripts": {
-    "install": "node ./node_modules/electron-prebuilt/install.js",
     "lint": "eslint ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ./"
