@@ -10,7 +10,8 @@
   "scripts": {
     "lint": "eslint ./",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./"
+    "start": "electron ./",
+	"watch": "watch 'npm run lint' ./bin/qrt ./client ./server --ignoreDotFiles"
   },
   "author": "Brian Vanderbusch <brian.vanderbusch@gmail.com> (https://github.com/LongLiveCHIEF)",
   "dependencies": {
@@ -28,6 +29,7 @@
     "electron-packager": "^5.0.1",
     "electron-prebuilt": "^0.30.1",
     "eslint": "^0.24.1",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "watch": "^0.16.0"
   }
 }
