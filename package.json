@@ -15,18 +15,18 @@
   },
   "author": "Brian Vanderbusch <brian.vanderbusch@gmail.com> (https://github.com/LongLiveCHIEF)",
   "dependencies": {
-    "babel": "^5.8.3",
+    "babel": "*",
     "material-ui": "*",
-    "os-name": "^1.0.3",
-    "react": "^0.13.3",
-    "react-tap-event-plugin": "^0.1.7"
+    "os-name": "*",
+    "react": "*",
+    "react-tap-event-plugin": "*"
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint":"^3.1.26",
+    "babel-eslint":"*",
     "electron-packager":"*",
     "electron-prebuilt":"*",
-    "eslint": "^0.24.1",
-    "mocha": "^2.2.5"
+    "eslint": "*",
+    "mocha": "*"
   }
 }
